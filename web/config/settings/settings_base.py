@@ -328,6 +328,6 @@ BACKEND_API = "http://capture-service"
 CALLBACK_PREFIX = None
 
 # Playback
-RWP_BASE_URL = "https://cdn.jsdelivr.net/npm/replaywebpage@1.3.8"
+RWP_BASE_URL = "https://cdn.jsdelivr.net/npm/replaywebpage@1.3.9"
 VITE_MANIFEST_PATH = "frontend/dist/manifest.json"
 VITE_ENTRY_PATH = "src/main.ts"
