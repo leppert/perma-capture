@@ -29,6 +29,8 @@ INSTALLED_APPS = [
     'django_extensions',
     'rest_framework',
     'rest_framework.authtoken',
+    'crispy_forms',
+    'crispy_bootstrap5',
 
     # built-in
     'django.contrib.admin',
@@ -331,3 +333,6 @@ CALLBACK_PREFIX = None
 RWP_BASE_URL = "https://cdn.jsdelivr.net/npm/replaywebpage@1.3.9"
 VITE_MANIFEST_PATH = "frontend/dist/manifest.json"
 VITE_ENTRY_PATH = "src/main.ts"
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = 'bootstrap5'
+CRISPY_TEMPLATE_PACK = 'bootstrap5'
